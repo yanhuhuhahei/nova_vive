@@ -40,7 +40,7 @@
 1. 打开终端，  
    
         cd ~/nova_vive/SenseGlove-API/SenseCom/SenseCom_Linux/SenseCom
-2. 分屏，在第一个终端中运行  
+2. ctrl+shift+o分屏，在第一个终端中运行  
    
         ./sgc_l.sh  
    显示Press CTRL-C for hangup，并且蓝色光从闪烁变为常亮
