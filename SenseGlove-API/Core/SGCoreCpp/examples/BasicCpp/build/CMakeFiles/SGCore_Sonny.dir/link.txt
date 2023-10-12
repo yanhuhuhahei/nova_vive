@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread   CMakeFiles/SGCore_Sonny.dir/main_sonny.cpp.o  -o SGCore_Sonny  -Wl,-rpath,/home/lyh/nova_vive/SenseGlove-API/Core/SGCoreCpp/lib/linux/Release /home/lyh/nova_vive/SenseGlove-API/Core/SGCoreCpp/lib/linux/Release/libSGCoreCpp.so 
