@@ -49,8 +49,8 @@
    
         chmod a+x SenseCom.x86_64
        ./SenseCom.x86_64  
-   启动SenseCom软件，手掌颜色为实心蓝色，且有wifi标识。
-   ![2023-10-12 21-28-57 的屏幕截图.png](https://s2.loli.net/2023/10/12/7hGOBZJXWcFaIKm.png)
+   启动SenseCom软件，手掌颜色为实心蓝色，且有wifi标识。  
+   ![2023-10-12 21-28-57 的屏幕截图.png](https://s2.loli.net/2023/10/12/7hGOBZJXWcFaIKm.png)  
 4. SenseCom软件校准在linux中不准确，需要进行程序校准，软件中的自动校准可以关掉。
 
 ## 运行数据收发程序
@@ -62,8 +62,8 @@
 2. 运行  ./SGCore_Sonny 按照窗口提示进行校准，即可看到手指数据更新。  
    * SGCore_Sonny是经过编译之后的可执行程序，可修改main_sony.cpp（~/nova_vive/SenseGlove-API/Core/SGCoreCpp/examples/BasicCpp），再进入到build中，执行：
   
-        cmake ..  
-        make
+     		cmake ..  
+        	make
 3. main_sonny.cpp中的handPose储存手指关节信息  
 
 ### vive tracker
