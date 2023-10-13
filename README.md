@@ -37,21 +37,25 @@
 按下按键，蓝色灯闪烁
 ### 连接蓝牙和软件
 
-1. 打开终端，  
+1. 将ubuntu当前用户加入串口所在组  
+	
+        sudo adduser $USER dialout  
+   $USER为当前Ubuntu用户名，完成后注销Ubuntu重新登录 
+2. 打开终端，  
    
         cd ~/nova_vive/SenseGlove-API/SenseCom/SenseCom_Linux/SenseCom
-2. ctrl+shift+o分屏，在第一个终端中运行  
+3. ctrl+shift+o分屏，在第一个终端中运行  
    
         ./sgc_l.sh  
    显示Press CTRL-C for hangup，并且蓝色光从闪烁变为常亮
    ![2023-10-12 21-28-48 的屏幕截图.png](https://s2.loli.net/2023/10/12/haVxf4OUsb9GmKN.png)
-3. 在第二个终端中运行  
+4. 在第二个终端中运行  
    
         chmod a+x SenseCom.x86_64
        ./SenseCom.x86_64  
    启动SenseCom软件，手掌颜色为实心蓝色，且有wifi标识。  
    ![2023-10-12 21-28-57 的屏幕截图.png](https://s2.loli.net/2023/10/12/7hGOBZJXWcFaIKm.png)  
-4. SenseCom软件校准在linux中不准确，需要进行程序校准，软件中的自动校准可以关掉。
+5. SenseCom软件校准在linux中不准确，需要进行程序校准，软件中的自动校准可以关掉。
 
 ## 运行数据收发程序
 ### Senseglove nova
