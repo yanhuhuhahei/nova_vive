@@ -64,7 +64,8 @@
   
      		cmake ..  
         	make
-3. main_sonny.cpp中的handPose储存手指关节信息  
+3. main_sonny.cpp中的handPose储存手指关节信息
+4. 具体API参考[官方文档](https://senseglove.gitlab.io/SenseGloveDocs/native/cpp-reference.html)  
 
 ### vive tracker
 
